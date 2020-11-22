@@ -21,7 +21,7 @@ int main(int argc, char* argv[]) {
 	// Help options
 	if (strncmp(argv[1], "--help", 6) == 0) {
 		help_options();
-		fprintf(stdout, "Run any of the specified options as follows: ./qwerHacks [OPTION]\n");
+		fprintf(stdout, "Run any of the options as follows: ./qwerHacks [OPTION]\n");
 		fprintf(stdout, "Exiting...\n");
 		exit(0);
 	}
